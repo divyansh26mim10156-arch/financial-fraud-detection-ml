@@ -19,7 +19,18 @@ An enterprise-grade, modular Python command-line application designed to classif
 * **Joblib** (Model serialization support)
 
 ---
+## Dataset Download & Setup
 
+Due to GitHub's file size limits, the `creditcard.csv` dataset is not included in this repository. 
+
+**Follow these exact steps to run the project:**
+1. Download the official "Credit Card Fraud Detection" dataset from Kaggle:
+   [🔗 Download Dataset Here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+2. Extract the downloaded `.zip` file.
+3. Rename the extracted file to `creditcard_sample.csv`.
+4. Place `creditcard_sample.csv` directly into the root directory of this cloned repository (the exact same folder containing `main.py`).
+
+---
 ## Installation & Setup
 
 1. Clone or download this repository into your local directory.
